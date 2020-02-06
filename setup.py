@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="topsispack-NG",
-    version="0.0.8",
+    version="0.0.9",
     author="Nikhil Gupta",
     author_email="ngupta_be17@thapar.edu",
     description="Multiple Criteria Decision Making(MCDM) using TOPSIS",
-	url='https://github.com/CachingNik/niklib',
+	url='https://github.com/CachingNik/TopsisPack',
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	packages=setuptools.find_packages(),
