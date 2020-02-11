@@ -18,7 +18,7 @@ Output is the best allternative out of list of all allternatives. Other ranks ar
 *Recommended - test it out in a virtual environment.* 
 
 ## To use via command line
-`topcli myData.csv "1,1,1,1" "-,+,+,+"`
+`Topcli myData.csv "1,1,1,1" "-,+,+,+"`
 
 First argument after nikcli is the location of the .csv file. The weights and impacts should be passed as strings in double quotes with each weight or impact separated by a comma (',').
 

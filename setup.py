@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="topsispack-NG",
-    version="0.0.9",
+    version="0.1.1",
     author="Nikhil Gupta",
     author_email="ngupta_be17@thapar.edu",
     description="Multiple Criteria Decision Making(MCDM) using TOPSIS",
@@ -13,7 +13,9 @@ setuptools.setup(
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	packages=setuptools.find_packages(),
-	scripts=['bin/topcli'],
+	entry_points = {
+        'console_scripts': ['Topcli=toplib.topcli:main'],
+    },
 	keywords = ['CLI', 'TOPSIS', 'Data'], 
 	python_requires='>=2.7', 
 )

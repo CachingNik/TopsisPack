@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: topsispack-NG
-Version: 0.0.8
+Version: 0.1.1
 Summary: Multiple Criteria Decision Making(MCDM) using TOPSIS
-Home-page: https://github.com/CachingNik/niklib
+Home-page: https://github.com/CachingNik/TopsisPack
 Author: Nikhil Gupta
 Author-email: ngupta_be17@thapar.edu
 License: UNKNOWN
@@ -26,7 +26,7 @@ Description: # A library capable of implementing TOPSIS
         *Recommended - test it out in a virtual environment.* 
         
         ## To use via command line
-        `topcli myData.csv "1,1,1,1" "-,+,+,+"`
+        `Topcli myData.csv "1,1,1,1" "-,+,+,+"`
         
         First argument after nikcli is the location of the .csv file. The weights and impacts should be passed as strings in double quotes with each weight or impact separated by a comma (',').
         

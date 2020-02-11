@@ -1,9 +1,10 @@
 README.md
 setup.py
-bin/topcli
 toplib/__init__.py
 toplib/models.py
+toplib/topcli.py
 topsispack_NG.egg-info/PKG-INFO
 topsispack_NG.egg-info/SOURCES.txt
 topsispack_NG.egg-info/dependency_links.txt
+topsispack_NG.egg-info/entry_points.txt
 topsispack_NG.egg-info/top_level.txt
